@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leave Application Form</title>
+</head>
+<body>
+    <h1>Leave Application</h1>
+    <form action="process_leave.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="rollno">Roll Number:</label>
+        <input type="text" id="rollno" name="rollno" required><br>
+
+        <label for="class">Class:</label>
+        <input type="text" id="class" name="class" required><br>
+
+        <label for="leave_reason">Reason for Leave:</label>
+        <textarea id="leave_reason" name="leave_reason" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
